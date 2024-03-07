@@ -83,7 +83,7 @@ max_date_hour = hours_df["datetime"].max()
 
 with st.sidebar:
     # Add Logo
-    st.image("logo.jpg", width=200)
+    st.image("dashboard/logo.jpg", width=200)
     
         # Get start_date & end_date from date_input
     start_date, end_date = st.date_input(
