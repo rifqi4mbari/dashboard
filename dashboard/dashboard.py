@@ -126,7 +126,7 @@ with col3:
     st.metric("Total Casual User", value=total_sum)
 
 ##Bike rentals performance 
-st.subheader("Bike Rentals Performance")
+st.subheader("Bike Rentals Performance Comparison")
 main_df_days["month"] = pd.Categorical(main_df_days["month"], categories=
     ["Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"],
     ordered=True)
@@ -155,7 +155,7 @@ plt.gca().xaxis.grid(False)
 st.pyplot(fig_bike_rentals)
 
 
-st.subheader("Most Rented Season")
+st.subheader("Most Rented each Season")
 # colors setting
 colors = ["#D3D3D3", "#D3D3D3", "#D3D3D3", "#72BCD4"]
 
